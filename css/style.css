@@ -1,20 +1,20 @@
 /* Global =========== */
-:root{
+:root {
     --white: #fafafa;
     --blue: #00348a;
     --blue-light: #0bbbd6;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     text-decoration: none;
 }
 
 /* Header ============ */
-header{
+header {
     width: 100%;
     text-align: center;
     padding: 2rem;
@@ -22,14 +22,14 @@ header{
     background-color: var(--white);
 }
 
-header h1{
+header h1 {
     color: var(--blue);
     font-size: 2.8rem;
     font-weight: 300;
 }
 
 /* Container =========== */
-.container{
+.container {
     width: 100%;
     height: 85vh;
 
@@ -42,7 +42,7 @@ header h1{
 }
 
 /* Form ================ */
-.container form{
+.container form {
     background: var(--blue-light);
 
     display: flex;
@@ -53,13 +53,13 @@ header h1{
     border-radius: 0.5rem;
 }
 
-.container form label{
+.container form label {
     color: var(--white);
     font-size: 1.3rem;
     font-weight: 600;
 }
 
-.container form input{
+.container form input {
     border: 0;
     outline: 0;
     margin: 5% 0px;
@@ -70,11 +70,11 @@ header h1{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
-.container form input:focus{
+.container form input:focus {
     box-shadow: inset 1px 2px 4px 2px rgba(0, 0, 0, 0.1);
 }
 
-.container form button{
+.container form button {
     cursor: pointer;
     margin-top: 3%;
     border: 0;
@@ -88,12 +88,12 @@ header h1{
     transition: 0.3s ease-in-out;
 }
 
-.container form button:hover{
+.container form button:hover {
     background-color: var(--white);
     color: var(--blue);
 }
 
-.container .result-box{
+.container .result-box {
     margin-top: 5%;
     background-color: var(--white);
     width: 40%;
@@ -103,17 +103,17 @@ header h1{
     color: #00348a;
 }
 
-.container .result-box h2{
+.container .result-box h2 {
     font-weight: 500;
     font-size: 1.3rem;
     margin: 5% 0%;
 }
 
-.container .result-box span{
+.container .result-box span {
     font-size: 1.3rem;
     font-weight: 300;
 }
-.container #btnRestart{
+.container #btnRestart {
     cursor: pointer;
     border: 0;
     outline: 0;
@@ -129,18 +129,18 @@ header h1{
     display: none;
 }
 
-.container #btnRestart:hover{
+.container #btnRestart:hover {
     background-color: var(--blue);
     color: var(--white);
 }
 
-footer{
+footer {
     padding: 1.5rem;
     text-align: center;
     box-shadow: inset 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
-footer p{
+footer p {
     color: var(--blue);
     font-size: 1rem;
     font-weight: 300;
